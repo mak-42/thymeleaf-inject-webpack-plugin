@@ -1,6 +1,6 @@
 {
-  "name": "thymeleaf-inject-webpack-plugin",
-  "version": "0.0.1",
+  "name": "@ctp.cmf/thymeleaf-inject-webpack-plugin",
+  "version": "0.0.1-c1",
   "description": "Adds automatically thymeleaf attribute to your injected resources",
   "main": "index.js",
   "files": [
@@ -8,12 +8,12 @@
   ],
   "scripts": {
     "prepublish": "npm run test",
-    "test": "jasmine",
+    "test": "",
     "debug": "node-debug jasmine"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nkb84/thymeleaf-inject-webpack-plugin.git"
+    "url": "https://github.com/mak-42/thymeleaf-inject-webpack-plugin.git"
   },
   "keywords": [
     "webpack",
