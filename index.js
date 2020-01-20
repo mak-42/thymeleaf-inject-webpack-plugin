@@ -54,8 +54,8 @@ class ThymeleafInjectWebpackPlugin {
         }
         break;
       case 'link':
-        // CSS file
-        if (tagDefinition.attributes.rel == 'stylesheet') {
+        // CSS file, preload or icon
+        if (tagDefinition.attributes.rel == 'stylesheet' || tagDefinition.attributes.rel === 'preload' || tagDefinition.attributes.rel === 'icon') {
           tagDefinition.attributes['th:href'] = "@{" + tagDefinition.attributes.href + "}"
         }
         break;
